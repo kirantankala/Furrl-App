@@ -60,7 +60,7 @@ export default function Login() {
       style={{
         backgroundImage: 'url("/splash-v2-7.jpg")',
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'contain',           // ✅ fits image exactly
+        backgroundSize: 'contain',          
         backgroundPosition: 'top center',
         width: '100%',
         height: '100vh',
@@ -78,7 +78,7 @@ export default function Login() {
           display: 'flex',
           flexDirection: 'column',
           gap: '12px',
-          marginBottom: '40px', // ✅ aligns with white box at bottom of image
+          marginBottom: '40px',
         }}
       >
         <input
